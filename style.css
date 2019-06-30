@@ -1,0 +1,19 @@
+body{
+  margin:100px;
+  padding: 100px;
+}
+
+#display{
+  text-align: right;
+  width:270px;
+}
+td,input{
+  font-size: 1.5em;
+  text-align: center;
+  width:50px;
+}
+
+#erase{
+  font-size: 0.7em;
+  height: 48px;
+}

@@ -1,6 +1,7 @@
 function insert(num)
 {
    document.calculator.display.value+=num
+   if(num==="/100")  calc() 
 }
 
 function calc()
