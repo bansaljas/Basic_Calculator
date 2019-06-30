@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>CALCULATOR</title>
+  </head>
+  <body>
+    <form name="calculator">
+      <table>
+        <tr>
+          <td colspan="3"><input type="text" name="display" id="display" disabled></td>
+          <td><input type="button" value="C" onclick="clean()"></td>
+        </tr>
+        <tr>
+          <td colspan="1"><input type="button" name="" onclick="insert('1')" value="1"></td>
+          <td><input type="button" name="" onclick="insert('2')" value="2"></td>
+          <td><input type="button" name="" onclick="insert('3')" value="3"></td>
+          <td><input type="button" name="" onclick="insert('+')" value="+"></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" name="" onclick="insert('4')" value="4"></td>
+          <td><input type="button" name="" onclick="insert('5')" value="5"></td>
+          <td><input type="button" name="" onclick="insert('6')" value="6"></td>
+          <td><input type="button" name="" onclick="insert('-')" value="- "></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" name="" onclick="insert('7')" value="7"></td>
+          <td><input type="button" name="" onclick="insert('8')" value="8"></td>
+          <td><input type="button" name="" onclick="insert('9')" value="9"></td>
+          <td><input type="button" name="" onclick="insert('*')" value="* "></td>
+        </tr>
+
+        <tr>
+          <td><input type="button" name="" onclick="del()" value="D"></td>
+          <td><input type="button" name="" onclick="insert('0')" value="0"></td>
+          <td><input type="button" name="" onclick="calc()" value="="></td>
+          <td><input type="button" name="" onclick="insert('.')" value="."></td>
+          <td><input type="button" name="" onclick="insert('/')" value="/"></td>
+        </tr>
+      </table>
+    </form>
+
+    <script src="working.js">  </script>
+  </body>
+</html>
