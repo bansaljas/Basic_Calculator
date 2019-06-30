@@ -1,16 +1,30 @@
 body{
   margin:100px;
   padding: 100px;
+  background-image: url(num_wallpaper.jpg);
+  background-size: contain;
 }
 
 #display{
   text-align: right;
   width:270px;
 }
-td,input{
+
+input{
   font-size: 1.5em;
   text-align: center;
   width:50px;
+  border:2px solid black;
+}
+
+td{
+  font-size: 1.5em;
+  text-align: center;
+  width:50px;
+}
+
+table{
+  border:10px black solid;
 }
 
 #erase{
